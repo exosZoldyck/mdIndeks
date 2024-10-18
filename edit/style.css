@@ -1,0 +1,59 @@
+/* Made by exosZoldyck */
+
+:root{
+    background-color: #1f1f1f;
+    color: white;
+    font-size: 20px;
+}
+
+body{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+#buttons-container{
+    position: fixed;
+    top: 10px;
+    right: 25px;
+    z-index: 9999;
+}
+
+#editText-container{
+    min-width: calc(100% - 10px * 2);
+    min-height: calc(100vh - 10px * 2);
+    margin: 0;
+    border: 0;
+    padding: 10px;
+    resize: none;
+
+    color: white;
+    background-color: #1f1f1f;
+    font-family: "Consolas";
+    font-size: 1rem;
+}
+
+.button-img{
+    width: 30px;
+    height: 30px;
+    margin: 0;
+    border: 0;
+    padding: 0;
+
+    filter: invert(1);
+}
+
+.button-img:hover{
+    cursor: pointer;
+}
+
+.no-outline{
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}

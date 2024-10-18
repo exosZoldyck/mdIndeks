@@ -1,0 +1,59 @@
+/* Made by exosZoldyck */
+
+.button-copy{
+    width: 20px;
+    height: 20px;
+    margin: 0;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    padding: 0;
+    top: 5px;
+    right: 5px;
+    position: absolute; 
+    z-index: 9;
+
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.button-copy:hover{
+    background-color: #5f5f5f;
+}
+
+.button-copy-img{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    border: 0;
+    padding: 0;
+
+    filter: invert(1);
+
+    opacity: 0.25;
+    transition-duration: 0.2s;
+}
+
+.button-copy-img:hover{
+    cursor: pointer;
+    opacity: 1;
+    transition-duration: 0.2s;
+}
+
+.button-click-anim-1{
+    animation-name: "button-click-anim-1";
+    animation-iteration-count: 1;
+    animation-duration: 0.2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes button-click-anim-1 {
+    0% {
+        transform: scale(100%);
+    }
+    50% {
+        transform: scale(50%);
+    }
+    100% {
+        transform: scale(100%);
+    }
+}

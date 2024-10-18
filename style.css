@@ -1,0 +1,71 @@
+/* Made by exosZoldyck */
+
+:root{
+    background-color: #1f1f1f;
+    color: white;
+    font-size: 20px;
+}
+
+body{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+#page-container{
+    max-width: 50%;
+    min-height: fit-content;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid #2f2f2f;
+    border-radius: 10px;
+    display: flex;
+
+    background-color: #2a2a2a;
+}
+
+#text-container{
+    min-width: 100%;
+    min-height: 100%;
+    display: block;
+    position: relative;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#buttons-container{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 9999;
+}
+
+.button-img{
+    width: 30px;
+    height: 30px;
+    margin: 0;
+    border: 0;
+    padding: 0;
+
+    filter: invert(1);
+}
+
+.button-img:hover{
+    cursor: pointer;
+}
+
+.no-outline{
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}

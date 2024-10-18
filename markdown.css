@@ -1,0 +1,69 @@
+/* Made by exosZoldyck */
+
+h1, h2, h3, h4, h5, h6, p{
+    overflow-wrap: break-word;
+}
+
+a{
+    color: deepskyblue;
+}
+
+a:hover{
+    color: lightskyblue;
+}
+
+blockquote{
+    width: fit-content;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-left: 4px solid #9f9f9f;
+    padding: 6px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+
+    background-color: #3a3a3a;
+}
+
+p:has(> code){
+    width: fit-content;
+    border: 1px solid #151515;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 6px;
+    padding-right: 6px;
+
+    background-color: #1f1f1f;
+    font-family: "Consolas";
+    overflow-y: auto;
+}
+
+pre:has(> code){
+    width: calc(100% - 14px);
+    border: 1px solid #151515;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 6px;
+    padding-right: 6px;
+    position: relative;
+
+    background-color: #1f1f1f;
+    font-family: "Consolas";
+    overflow-y: auto;
+}
+
+table, th, td{
+    border: 1px solid #cfcfcf;
+    padding: 4px;
+}
+
+table{
+    padding: 2px;
+}
+
+.pre-container{
+    width: 100%;
+    height: fit-content;
+
+    display: block;
+    position: relative;
+}
