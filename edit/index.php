@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Index</title>
-    <link rel="stylesheet" href="../fonts.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../fonts.css?t=<?php echo filemtime("../fonts.css"); ?>">
+    <link rel="stylesheet" href="style.css?t=<?php echo filemtime("style.css"); ?>">
 </head>
 <body>
     <textarea name="" id="editText-container" autofocus>
@@ -21,6 +21,6 @@
         <a href="../"><img class="button-img no-outline" src="../assets/icons/return.svg"></a>
     </div>
 
-    <script src="write.js"></script>
+    <script src="write.js?t=<?php echo filemtime("write.js"); ?>"></script>
 </body>
 </html>
