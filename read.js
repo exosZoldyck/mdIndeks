@@ -23,3 +23,12 @@ function readFile(filename){
 }
 
 document.onload = readFile("index.md");
+
+document.addEventListener('keydown', e => {
+    if (e.ctrlKey && e.key === 'e') {
+        e.preventDefault();
+        console.log('Caught Ctrl + E event!');
+
+        window.location.replace("./edit");
+    }
+});

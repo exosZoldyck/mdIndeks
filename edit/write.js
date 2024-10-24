@@ -35,4 +35,10 @@ document.addEventListener('keydown', e => {
             alert("File saved!");
         });
     }
+    else if (e.ctrlKey && e.key === 'e') {
+        e.preventDefault();
+        console.log('Caught Ctrl + E event!');
+
+        window.location.replace("../");
+    }
 });
